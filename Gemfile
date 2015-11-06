@@ -9,6 +9,7 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'pg'
+gem 'eventmachine', '~>1.0.4'
 
 group :development do
   gem 'thin'
