@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.1.1'
 
 gem 'bootstrap-sass'
 gem 'coffee-rails'
@@ -9,7 +9,7 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'pg'
-gem 'eventmachine', '~>1.0.4'
+gem 'eventmachine' , '~>1.0.4'
 
 group :development do
   gem 'thin'
