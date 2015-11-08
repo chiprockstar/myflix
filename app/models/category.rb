@@ -1,4 +1,4 @@
 class Category < ActiveRecord::Base
-  belongs_to :video
+  has_many :videos
 
 end
